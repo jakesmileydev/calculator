@@ -1,0 +1,78 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(117, 117, 117),
+    rgb(29, 29, 29)
+  );
+}
+main {
+  margin-top: 4rem;
+}
+.logo {
+  padding: 0.6rem;
+}
+.section-display {
+  height: 12rem;
+  position: relative;
+}
+.display {
+  font-size: 3.2rem;
+  right: 0;
+
+  padding: 4rem 0.6rem;
+  margin: 0;
+  position: absolute;
+}
+.message {
+  position: absolute;
+  right: 1rem;
+  top: 1.4rem;
+}
+.section-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.1rem;
+  padding: 0.2rem;
+}
+.btn {
+  font-size: 1.6rem;
+  padding: 2rem 2.2rem;
+  border: none;
+  transition: all 0.2s ease-out;
+}
+.btn:hover,
+.btn:active {
+  background-color: rgb(105, 105, 105);
+}
+.section-display,
+.section-btns {
+  background-color: rgb(49, 49, 49);
+}
+.num,
+.squared,
+.decimal {
+  background-color: #0c0c0c;
+}
+.operator,
+.settings,
+.clear,
+.back {
+  background-color: #1b1b1b;
+}
+
+.equals {
+  background-color: rgba(102, 0, 128, 0.507);
+}
+.equals:hover,
+.equals:active {
+  background-color: rgba(119, 4, 148, 0.924);
+}
